@@ -1,6 +1,4 @@
 # M3LNet
-M3LNet
-# DeepRL
 ## Install environment
 You can configure the environment by using the following commands:
 ```
