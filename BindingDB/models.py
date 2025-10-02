@@ -15,7 +15,7 @@ from copy import deepcopy
 
 from model_llama import Transformer_lar, ModelArgs
 
-device = torch.device('cuda:1' if torch.cuda.is_available() else 'cpu')
+device = torch.device('cuda:0' if torch.cuda.is_available() else 'cpu')
 
 def binary_cross_entropy(pred_output, labels):
     loss_fct = torch.nn.BCELoss()
