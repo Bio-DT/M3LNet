@@ -5,14 +5,13 @@ In our experiments, the specific configurations are as follows:
 ```
 python=3.9
 torch=2.4.0
-dgl=
-rdkit=
-dgllife=
-scikit-learn=
-yacs=
-comet_ml=
-torch-geometric=
-cuda>=12.1
+dgl= 2.4.1
+rdkit-pypi=2022.9.5
+dgllife=0.3.2
+scikit-learn=1.6.1
+yacs=0.1.8 
+comet_ml=3.53.0
+torch-geometric=2.6.1
 ```
 
 You can configure the environment by using the following commands:
