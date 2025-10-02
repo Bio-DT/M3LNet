@@ -53,7 +53,7 @@ For a cluster data partitioning strategy:
 
 
 
-device = torch.device('cuda:1' if torch.cuda.is_available() else 'cpu')
+device = torch.device('cuda:0' if torch.cuda.is_available() else 'cpu')
 
 # parser = argparse.ArgumentParser(description="DrugBAN for DTI prediction")
 # parser.add_argument('--cfg', required=True, help="path to config file", type=str)
